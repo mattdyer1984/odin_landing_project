@@ -6,7 +6,7 @@ body {
 .header {
     background-color: #1F2937;
     font-family: Roboto;
-    height: 450px;
+    height: 530px;
 }
 
 .navlinks {
@@ -24,19 +24,23 @@ body {
 }
 
 .intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     margin: 60px 100px;
     color: #E5E7EB;
     gap: 3rem;
     height: 250px;
-    
+    padding: 50px 0 ;
+}
+
+.introText {
+    width: 45%;
 }
 
 .heading {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 0;
 }
 
 .subtext {
@@ -48,7 +52,10 @@ body {
 .image {
     background-color: #a6a6a6;
     text-align: center;
-    padding-top: 115px;
+    height: 250px;
+    line-height: 250px;
+    width: 45%;
+    margin: 0;
 }
 
 .topbutton {
@@ -68,15 +75,21 @@ body {
     font-size: 36px;
     text-align: center;
     margin-top: -40px;
-    padding: 25px ;
+    padding: 25px 0px ;
+    height: 450px;
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     justify-items: center;
-    padding: 25px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.flexboxes {
+    width: 175px;
 }
 
 .boxes {
@@ -84,10 +97,84 @@ body {
     border-radius: 10px;
     height: 150px;
     width: 150px;
+    padding-left: 15px;
 }
 
 .boxtext {
-    font-size: 18px;
+    font-size: 16px;
     color: #a6a6a6;
     padding: 5px 50px;
+}
+
+.thirdbox {
+    background-color: #E5E7EB;
+    margin-top: -40px;
+    padding: 50px 15% 10px 15%;
+}
+
+.thirdbox_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.textref {
+    text-align: end;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.fourthbox {
+    background-color:#f9faf8;
+    padding: 40px;
+    margin-top: -10px;
+}
+
+.bluebox{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.calltext {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: -1em;
+    padding-right: 40px;
+}
+
+.subtext {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.secondbutton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 4px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 4px;
+    border: solid 1px #f9faf8  ;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 75px;
+    margin-top: -1em;
+    text-align: center;
+    font-size: 24px;
+    color: #E5E7EB;
+    padding-top: 15px;
 }
